@@ -1,0 +1,35 @@
+rules_version = '2';
+
+service firebase.storage {
+  match /b/{bucket}/o {
+  
+ match /recipeImages/default/{allPaths=**} {
+      allow read: if true;
+      allow write: if false;
+    }
+    
+    match /recipeImages/{userId}/{allPaths=**} {
+      allow read: if true;
+      allow write: if request.auth != null && request.auth.uid == userId;
+    }
+  
+   match /thumbnails/default/{allPaths=**} {
+      allow read: if true;
+      allow write: if false;
+    }
+    
+    match /thumbnails/{userId}/{allPaths=**} {
+      allow read: if true;
+      allow write: if request.auth != null && request.auth.uid == userId;
+    }
+    
+  
+  }
+}
+
+
+// Allow all users (authenticated or not) to read the default images
+// No one is allowed to write (upload) to the default images path to maintain them as read-only
+
+// Allow authenticated users to read uploded by usres thumbnails and recipeImages
+// Allow authenticated user to write their own thumbnail and recipeImages

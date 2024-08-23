@@ -1,0 +1,21 @@
+.logo-img,
+.logo-img-dark {
+  width: 2em;
+  height: 2em;
+}
+
+.logo-img-dark {
+  filter: grayscale(10%);
+}
+
+.nav-header,
+.nav-btn-link {
+  line-height: normal;
+  vertical-align: middle;
+}
+
+@media (max-width: 991.98px) {
+  .navbar-nav > .nav-item:first-child {
+    margin-top: 0.5rem;
+  }
+}

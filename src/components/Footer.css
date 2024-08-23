@@ -1,0 +1,25 @@
+.footer {
+  border-top: 2px solid transparent;
+  border-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.1),
+      rgba(0, 0, 0, 0.3)
+    )
+    1 stretch;
+  width: 100%;
+}
+
+img.footer-img {
+  width: 1.2em;
+  height: 1.2em;
+}
+
+img.footer-img-dark {
+  filter: grayscale(10%);
+}
+
+@media (max-width: 576px) {
+  .card.footer {
+    font-size: 10px;
+  }
+}

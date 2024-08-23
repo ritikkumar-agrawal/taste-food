@@ -1,0 +1,17 @@
+.avatar-img {
+  border: 1px solid #343a40;
+  transition: transform 0.3s ease-in-out;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.avatar-img:hover,
+.avatar-img-dark:hover {
+  transform: scale(1.1);
+}
+
+.avatar-img-dark {
+  border: 1px solid #f8f9fa;
+  box-shadow: 2px 2px 5px rgba(255, 255, 255, 0.1);
+  transition: transform 0.3s ease-in-out;
+  filter: grayscale(10%);
+}

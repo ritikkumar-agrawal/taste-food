@@ -1,0 +1,74 @@
+.recipe-container {
+  min-height: calc(100vh - 2 * 52px);
+}
+
+.big-card-img-container {
+  overflow: hidden;
+  padding-top: 50%;
+  position: relative;
+}
+
+.big-card-img-container img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  top: 0;
+  left: 0;
+}
+
+.delete-button {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+}
+
+.light-theme-modal .modal-content {
+  background-color: #fff;
+  color: #333;
+}
+
+.dark-theme-modal .modal-content {
+  background-color: #333;
+  color: #e4e4e4;
+}
+
+.tooltip [class$='inner'] {
+  font-weight: 600;
+  background-color: #333;
+  color: #e4e4e4;
+}
+
+.tooltip [class$='arrow'] {
+  visibility: hidden;
+}
+
+/* dark theme */
+.darkTooltip [class$='inner'] {
+  font-weight: 600;
+  background-color: #e4e4e4;
+  color: #333;
+}
+
+.darkTooltip [class$='arrow'] {
+  visibility: hidden;
+}
+
+.recipe-title {
+  transition: color 0.3s;
+  text-decoration: none;
+
+  &:hover {
+    color: #007bff;
+    text-decoration: underline;
+  }
+}
+
+.star-icon {
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+
+.star-icon:hover {
+  transform: scale(1.2);
+}

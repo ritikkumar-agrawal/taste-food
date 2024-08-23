@@ -1,0 +1,9 @@
+.not-found-container {
+  min-height: calc(100vh - 2 * 52px);
+}
+
+.shrinking-image {
+  max-height: calc(100vh - 2 * 50px);
+  width: 80%;
+  height: auto;
+}

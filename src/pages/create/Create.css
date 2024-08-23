@@ -1,0 +1,26 @@
+.create {
+  min-height: calc(100vh - 2 * 82px);
+}
+
+.create-form {
+  max-width: 475px;
+}
+
+.ingredient-text {
+  word-wrap: break-word;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.image-preview {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-preview img {
+  max-width: 100%;
+  max-height: 200px;
+}

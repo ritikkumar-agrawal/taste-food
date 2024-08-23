@@ -1,0 +1,15 @@
+.like-button {
+  transition: background-color 0.3s ease-in-out;
+}
+
+.like-button:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.like-button.liked {
+  border: none;
+}
+
+.like-button.unliked {
+  border: none;
+}
