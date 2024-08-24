@@ -4,16 +4,31 @@ import { getAuth, fetchSignInMethodsForEmail } from 'firebase/auth'
 import { getStorage } from 'firebase/storage'
 
 const firebaseConfig = {
-  apiKey: "process.env.FIREBASE_API_KEY",
-  authDomain: "process.env.FIREBASE_AUTH_DOMAIN",
-  projectId: "process.env.FIREBASE_PROJECT_ID",
-  storageBucket: "process.env.FIREBASE_STORAGE_BUCKET",
-  messagingSenderId: "process.env.FIREBASE_MESSAGING_SENDER_ID",
-  appId: "process.env.FIREBASE_APP_ID",
-}
+  apiKey: "AIzaSyD8b1UvZLLPz9ZR6vzJ409MLhQvHCmdM08",
+  authDomain: "tasty-treats-5fa48.firebaseapp.com",
+  projectId: "tasty-treats-5fa48",
+  storageBucket: "tasty-treats-5fa48.appspot.com",
+  messagingSenderId: "562940553393",
+  appId: "1:562940553393:web:64cd9df76aa5a9f8d41a90",
+  measurementId: "G-2G54SBZG1Y"
+};
 
+
+// Import the functions you need from the SDKs you need
+// import { initializeApp } from "firebase/app";
+// import { getAnalytics } from "firebase/analytics";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+// const analytics = getAnalytics(app);
 // initialize Firebase
-const app = initializeApp(firebaseConfig)
+// const app = initializeApp(firebaseConfig)
 
 // initialize Firestore services
 const db = getFirestore(app)

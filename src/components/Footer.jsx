@@ -33,7 +33,7 @@ export default function Footer() {
             src={mode === 'light' ? heartLight : heartDark}
             alt="Heart Icon"
           />
-          by Elena Shatalova &copy; {currentYear}
+          by Ritik &copy; {currentYear}
         </p>
       </Container>
     </footer>
