@@ -8,7 +8,7 @@ Tasty Treats is designed to simplify the process of exploring and managing recip
 
 ## Quick Start
 
-Explore the delicious world of Tasty Treats by visiting [Tasty Treats App](https://tasty-treats-site.web.app/).
+Explore the delicious world of Tasty Treats by visiting [Tasty Treats App]().
 
 ## Usage
 
@@ -37,22 +37,4 @@ Explore the delicious world of Tasty Treats by visiting [Tasty Treats App](https
 4. Start the development server: `npm start`
 5. Access the app at `http://localhost:3000`
 
-## Color Themes
 
-### Light Themes
-![Light Theme 1](/screenshots/tastyTreatsLight1.jpg "Light Theme 1")
-![Light Theme 2](/screenshots/tastyTreatsLight2.jpg "Light Theme 2")
-![Light Theme 3](/screenshots/tastyTreatsLight3.jpg "Light Theme 3")
-![Light Theme 4](/screenshots/tastyTreatsLight4.jpg "Light Theme 4")
-
-### Dark Themes
-![Dark Theme 1](/screenshots/tastyTreatsDark1.jpg "Dark Theme 1")
-![Dark Theme 2](/screenshots/tastyTreatsDark2.jpg "Dark Theme 2")
-![Dark Theme 3](/screenshots/tastyTreatsDark3.jpg "Dark Theme 3")
-![Dark Theme 4](/screenshots/tastyTreatsDark4.jpg "Dark Theme 4")
-
-For detailed documentation and contribution guidelines, please refer to [CONTRIBUTING.md](CONTRIBUTING.md).
-
----
-
-Enjoy exploring and creating delicious recipes with Tasty Treats! If you have any questions or feedback, feel free to [reach out](mailto:elenashatalova.it@gmail.com).
