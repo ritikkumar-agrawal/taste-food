@@ -8,7 +8,7 @@ Tasty Treats is designed to simplify the process of exploring and managing recip
 
 ## Quick Start
 
-Explore the delicious world of Tasty Treats by visiting [Tasty Treats App]().
+Explore the delicious world of Tasty Treats by visiting [Tasty Treats App](https://taste-food-lemon.vercel.app/).
 
 ## Usage
 
