@@ -8,7 +8,7 @@ Tasty Treats is designed to simplify the process of exploring and managing recip
 
 ## Quick Start
 
-Explore the delicious world of Tasty Treats by visiting [Tasty Treats App]().
+Explore the delicious world of Tasty Treats by visiting [Tasty Treats App](https://taste-food-lemon.vercel.app/).
 
 ## Usage
 
@@ -31,10 +31,9 @@ Explore the delicious world of Tasty Treats by visiting [Tasty Treats App]().
 
 ### Installation
 
-1. Clone the repository: `git clone https://github.com/Shinagawa-monkey/Tasty-Treats-App.git`
-2. Navigate to the project directory: `cd tasty-treats`
-3. Install dependencies: `npm install`
-4. Start the development server: `npm start`
-5. Access the app at `http://localhost:3000`
+1. Clone the repository: `https://github.com/ritikkumar-agrawal/taste-food.git`
+2. Install dependencies: `npm install`
+3. Start the development server: `npm start`
+4. Access the app at `http://localhost:3000`
 
 
