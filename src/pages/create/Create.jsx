@@ -165,8 +165,9 @@ export default function Create() {
       cookingTime: formattedCookingTime,
       createdBy,
       imageURL:
-        imageURL ||
-        'https://firebasestorage.googleapis.com/v0/b/tasty-treats-site.appspot.com/o/recipeImages%2Fdefault%2FnoRecipe.png?alt=media&token=2c22c482-f5b1-41d9-adb8-e0f39f27dcf2',
+        imageURL,
+        
+        // 'https://firebasestorage.googleapis.com/v0/b/tasty-treats-site.appspot.com/o/recipeImages%2Fdefault%2FnoRecipe.png?alt=media&token=2c22c482-f5b1-41d9-adb8-e0f39f27dcf2',
     }
 
     try {

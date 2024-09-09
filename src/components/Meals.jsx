@@ -17,7 +17,7 @@ export default function Meals() {
   if (meals.length < 1) {
     return (
       <section className="section">
-        <h4>No meals mathced your search term. Please try again.</h4>
+        <h4>No meals found</h4>
       </section>
     );
   }
