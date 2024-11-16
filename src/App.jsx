@@ -1,6 +1,5 @@
 import { Routes, Route, Navigate } from 'react-router-dom'
 import Container from 'react-bootstrap/Container'
-
 // pages & components
 import Navigationbar from './components/Navbar'
 import Create from './pages/create/Create'
@@ -23,11 +22,7 @@ function App() {
   const { mode } = useTheme()
 
   return (
-    <main
-      className={`App ${mode === 'light' ? 'bg-light' : 'bg-dark'} text-${
-        mode === 'light' ? 'dark' : 'white'
-      }`}
-    >
+    <main className = {`App ${mode === 'light' ? 'bg-light' : 'bg-dark'} text-${mode === 'light' ? 'dark' : 'white' }`} >
       {authIsReady && (
         <div className="d-flex flex-column" style={{ minHeight: '100vh' }}>
           <a href="#main-content" className="visually-hidden">

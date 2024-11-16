@@ -1,6 +1,7 @@
 import { useEffect, useState, useRef } from 'react'
 import {
   collection,
+  // This (onSnapshot)function is used to listen to real-time updates from a Firestore collection or query. Whenever data in the collection or query changes (like adding, removing, or updating a document), this listener is triggered with the new data.
   onSnapshot,
   query,
   where,
